@@ -40,3 +40,11 @@ __pycache__/
 .DS_Store
 .vscode/
 .idea/
+
+# Public audited scanner files intentionally included
+!scripts/
+!scripts/profile_secret_scan.py
+!skills/
+!skills/**/
+!skills/**/secret-state-scan/
+!skills/**/secret-state-scan/SKILL.md
